@@ -14,6 +14,7 @@
   color: white;
   justify-content: center;
   text-align: center;
+
 }
 
 ._blocker {
@@ -22,94 +23,44 @@
 }
 
 ._1u {
-  background: rgb(15, 15, 15);
-  color: white;
-  text-align: center;
-  border-style: groove;
   grid-column: span 4;
 }
 
 ._1_25u {
-  background: rgb(15, 15, 15);
-  color: white;
-  text-align: center;
-  border-style: groove;
   grid-column: span 5;
 }
 
 ._1_5u {
-  background: rgb(15, 15, 15);
-  color: white;
-  text-align: center;
-  vertical-align: text-top;
-  border-style: groove;
   grid-column: span 6;
 }
 
 
 ._1_75u {
-  background: rgb(15, 15, 15);
-  color: white;
-  text-align: center;
-  vertical-align: text-top;
-  padding: 10px 10px 10px 10px;
-  border-style: groove;
   grid-column: span 7;
 }
 
 ._2u {
-  background: rgb(15, 15, 15);
-  color: white;
-  text-align: center;
-  vertical-align: text-top;
-  border-style: groove;
   grid-column: span 8;
 }
 
 ._2_25u {
-  background: rgb(15, 15, 15);
-  color: white;
-  text-align: center;
-  vertical-align: text-top;
-  padding: 10px 10px 10px 10px;
-  border-style: groove;
   grid-column: span 9;
 }
 
 
 ._2_75u {
-  background: rgb(15, 15, 15);
-  color: white;
-  text-align: center;
-  vertical-align: text-top;
-  border-style: groove;
   grid-column: span 11;
 }
 
 ._6u {
-  background: rgb(15, 15, 15);
-  color: white;
-  text-align: center;
-  vertical-align: text-top;
-  border-style: groove;
   grid-column: span 24;
 }
 
 ._6_25u {
-  background: rgb(15, 15, 15);
-  color: white;
-  text-align: center;
-  vertical-align: text-top;
-  border-style: groove;
   grid-column: span 25;
 }
 
 ._7u {
-  background: rgb(15, 15, 15);
-  color: white;
-  text-align: center;
-
-  border-style: groove;
   grid-column: span 28;
 }
 
