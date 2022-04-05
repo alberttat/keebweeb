@@ -1,15 +1,125 @@
+.keyboard_base {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(64, 25px);
+  grid-template-rows: repeat(5, 75px);
+  background-color: black;
 
-.wrapper {
-    display: grid;
-    grid-template-columns: 50px 50px  50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+
 }
-.square {
-  width:50px;
-  height:50px;
-  background:rgb(15, 15, 15);
-  color: rgb(255, 255, 255);
+
+.keyboard_base>div {
+  border-style: ridge;
+  border-color: white;
+  color: white;
+  justify-content: center;
   text-align: center;
-  vertical-align: middle;
-  padding:10px 10px 10px 10px;
-  border-style: groove;
 }
+
+._blocker {
+  background: rgb(255, 255, 255);
+  grid-column: span 2;
+}
+
+._1u {
+  background: rgb(15, 15, 15);
+  color: white;
+  text-align: center;
+  border-style: groove;
+  grid-column: span 4;
+}
+
+._1_25u {
+  background: rgb(15, 15, 15);
+  color: white;
+  text-align: center;
+  border-style: groove;
+  grid-column: span 5;
+}
+
+._1_5u {
+  background: rgb(15, 15, 15);
+  color: white;
+  text-align: center;
+  vertical-align: text-top;
+  border-style: groove;
+  grid-column: span 6;
+}
+
+
+._1_75u {
+  background: rgb(15, 15, 15);
+  color: white;
+  text-align: center;
+  vertical-align: text-top;
+  padding: 10px 10px 10px 10px;
+  border-style: groove;
+  grid-column: span 7;
+}
+
+._2u {
+  background: rgb(15, 15, 15);
+  color: white;
+  text-align: center;
+  vertical-align: text-top;
+  border-style: groove;
+  grid-column: span 8;
+}
+
+._2_25u {
+  background: rgb(15, 15, 15);
+  color: white;
+  text-align: center;
+  vertical-align: text-top;
+  padding: 10px 10px 10px 10px;
+  border-style: groove;
+  grid-column: span 9;
+}
+
+
+._2_75u {
+  background: rgb(15, 15, 15);
+  color: white;
+  text-align: center;
+  vertical-align: text-top;
+  border-style: groove;
+  grid-column: span 11;
+}
+
+._6u {
+  background: rgb(15, 15, 15);
+  color: white;
+  text-align: center;
+  vertical-align: text-top;
+  border-style: groove;
+  grid-column: span 24;
+}
+
+._6_25u {
+  background: rgb(15, 15, 15);
+  color: white;
+  text-align: center;
+  vertical-align: text-top;
+  border-style: groove;
+  grid-column: span 25;
+}
+
+._7u {
+  background: rgb(15, 15, 15);
+  color: white;
+  text-align: center;
+
+  border-style: groove;
+  grid-column: span 28;
+}
+
+
+
+
+/*create base with x size and y columns;
+create div key sizes;
+larger keys span more columns;
+column # needs to be divible by 4 1u, 1.25u, 1.5u, 1.75u, 2u, 2.25u, 2.75u
+
+document.querySelector(".keyboard_base").style.cssText="grid-template-rows: repeat(10, 75px);"
+grid-template-rows: repeat(5, 75px);*/
